@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<data>
+	</data>
+
+	<com.kycq.library.percent.PercentRelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/tv_relative_layout"
+		android:orientation="vertical"
+		app:percent_marginLeft="25%w"
+		app:percent_width="50%w">
+
+		<ImageView
+			android:id="@+id/ivPicture"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@mipmap/ic_launcher"
+			app:percent_height="25%w"
+			app:percent_margin="10%w"
+			app:percent_marginLeft="25%w"
+			app:percent_padding="10%w"
+			app:percent_width="50%w"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@+id/ivPicture"
+			android:background="@android:color/black"
+			android:gravity="center"
+			android:text="@string/percent_relative_layout"
+			android:textColor="@android:color/white"
+			app:percent_height="25%w"
+			app:percent_marginLeft="25%w"
+			app:percent_marginTop="-20%w"
+			app:percent_width="50%w"/>
+	</com.kycq.library.percent.PercentRelativeLayout>
+</layout>

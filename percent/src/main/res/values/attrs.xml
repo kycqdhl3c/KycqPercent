@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="PercentLayout">
+		<attr name="percent_width" format="string"/>
+		<attr name="percent_height" format="string"/>
+		
+		<attr name="percent_margin" format="string"/>
+		<attr name="percent_marginLeft" format="string"/>
+		<attr name="percent_marginTop" format="string"/>
+		<attr name="percent_marginRight" format="string"/>
+		<attr name="percent_marginBottom" format="string"/>
+		<attr name="percent_marginStart" format="string"/>
+		<attr name="percent_marginEnd" format="string"/>
+
+		<attr name="percent_padding" format="string"/>
+		<attr name="percent_paddingTop" format="string"/>
+		<attr name="percent_paddingBottom" format="string"/>
+		<attr name="percent_paddingLeft" format="string"/>
+		<attr name="percent_paddingRight" format="string"/>
+		<attr name="percent_paddingStart" format="string"/>
+		<attr name="percent_paddingEnd" format="string"/>
+	</declare-styleable>
+</resources>
